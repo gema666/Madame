@@ -205,7 +205,7 @@ if(($resultado>0) ){  ?>
 
           <H3><STRONG>TOTAL A PAGAR $<input type="text"  id="Pagar" name="Pagar" value="<?php echo $Total;?>" readonly></STRONG><H3>
     <input class="cart_total_button" type="submit" value="DESCARGAR COMPROBANTE" onclick="window.location.href='Reporte_de_Compra.php' name="B1">
-     <input class="cart_total_button" type="submit" value="ENVIARME UN CORREO" name="B1">
+   
     </div>
           
         <input class="cart_total_button" onclick="window.location.href='IndexCliente.php'" type="submit" value="REGRESAR" name="B1">
